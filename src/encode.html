@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Codificação de Kudos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    /> <!--Fonte-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    /> <!--Fonte-->
+  </head>
+
+  <body>
+
+    <section class="kudo-to-you-logo">
+      <img src="assets/Kudos-to-you.png" alt="Kudo para Você" />
+    </section>
+
+    <section class="instructions"> <!--Section com as instruções do Kudo-->
+      <h2>Instruções:</h2>
+      <p>
+        Para codificar uma mensagem, basta você escolher o "número de
+        codificação" e inseri-lo no campo abaixo. <br />
+        Após, insira seu texo de congratulações na caixa de texto e veja sua
+        mensagem codificada ao lado! <br />
+        Copie o texto e encaminhe para a pessoa que você deseja parabenzar.
+        <br />
+        Mas <b>não esqueca de enviar o número de codificação </b>para que a mensagem
+        possa ser devidamente decodificada.
+      </p>
+    </section>
+
+    <div class="input">
+      <label for="offset">Escola seu número de codificação</label> </br>
+      <input id="offsetencode" name="offset" type="number" min = "0" placeholder="Número de Codificação" required>
+      
+    </div>
+
+    <section class="flex-container">
+      <div class="insert-text"> <!--Section para inserir o texto original do Kudo-->
+        <label for="decoded-text">Insira aqui a mensagem do seu Kudo</label>
+
+        <textarea
+          id="decoded-text"
+          rows="10"
+          cols="40"
+          maxlength="500"
+          placeholder="Mensagem Decodifica"
+        ></textarea>
+        <br />
+      </div>
+
+      <div class="encode-text-area"> <!--Section com textarea para printar o Kudo codificado-->
+        <label for="encode-text">Sua mensagem já está codificada!</label>
+        <textarea id="encoded-text" rows="10" cols="40" readonly>
+Aqui esta seu texto codificado!</textarea
+        >
+       
+      </div>
+    </section>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
+
+

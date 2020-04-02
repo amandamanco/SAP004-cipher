@@ -1,0 +1,112 @@
+.kudo-to-you > img {
+  width: 500px;
+  height: 495px;
+}
+
+.kudo-to-you {
+  text-align: center;
+}
+
+.flex-container-home-page {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 0 215px;
+}
+
+.flex-container-home-page > button {
+  padding: 20px;
+  font-family: "Fredoka One", cursive;
+  font-size: 28px;
+  border: 3px solid #f35d06;
+  border-radius: 10px;
+  background-color: #c7c7c7f1;
+  width: 270px;
+  text-align: center;
+}
+
+.flex-container-home-page > button:hover {
+  background-color: #f8a87a;
+}
+
+.behavior-code > p {
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.kudo-to-you-logo {
+  text-align: center;
+}
+
+.kudo-to-you-logo > img {
+  width: 260px;
+  height: 240px;
+}
+
+.instructions {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 0;
+  font-size: 15px;
+  font-family: "Special Elite", cursive;
+}
+
+.input {
+  text-align: center;  
+  font-size: 13px;
+  height: 60px;
+}
+
+#offsetencode {
+  width: 212px;
+}
+
+#offsetdecode {
+  width: 212px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.encode-text-area {
+  display: flex;
+  flex-direction: column;
+}
+
+#encoded-text {
+  background-color: rgb(201, 201, 201);
+}
+
+#decode-text {
+  background-color:  rgb(201, 201, 201);;
+}
+
+.decode-text-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.insert-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.decoded-text-area > p {
+  font-family: "Fredoka One", cursive;
+  margin-top: 0px;
+  font-size: 11px;
+}
+
+label {
+  font-family: "Fredoka One", cursive;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(130, 111, 255, 0.842)), to(rgba(137, 43, 226, 0.836))) fixed;
+}
