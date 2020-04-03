@@ -18,7 +18,8 @@
 
   <body>
 
-    <section class="kudo-to-you-logo">
+    <section class="navbar">
+      <button type="button" class="back-button" onclick="window.location.href = '/index.html'">Voltar</button>
       <img src="assets/Kudos-to-you.png" alt="Kudo para Você" />
     </section>
 
@@ -42,12 +43,12 @@
     <section class="flex-container">
       <div class="insert-text">
         <!--Section para inserir o texto original do Kudo-->
-        <label for="coded-text"
+        <label for="user-text-decoded"
           >Insira aqui a mensagem codificada do seu Kudo</label
         >
 
         <textarea
-          id="decoded-text"
+          id="user-text-decoded"
           rows="10"
           cols="40"
           maxlength="500"
