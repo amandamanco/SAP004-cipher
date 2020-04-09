@@ -1,4 +1,4 @@
-.kudo-to-you > img {
+.kudo-to-you > img { /*logo*/
   width: 500px;
   height: 495px;
 }
@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.flex-container-home-page {
+.flex-container-home-page { /*botões*/
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -36,7 +36,7 @@
   margin-top: 50px;
 }
 
-.navbar {
+.navbar { /*botão voltar e logo*/
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-start;
@@ -86,7 +86,7 @@
   width: 212px;
 }
 
-.flex-container {
+.flex-container { /*caixas de texto*/
   display: flex;
   flex-direction: row;
   justify-content: space-around;
