@@ -1,0 +1,141 @@
+.kudo-to-you > img { /*logo*/
+  width: 500px;
+  height: 495px;
+}
+
+.kudo-to-you {
+  text-align: center;
+}
+
+.flex-container-home-page { /*botões*/
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 0 215px;
+}
+
+.flex-container-home-page > button {
+  padding: 20px;
+  font-family: "Fredoka One", cursive;
+  font-size: 28px;
+  border: 3px solid #f35d06;
+  border-radius: 10px;
+  background-color: #c7c7c7f1;
+  width: 270px;
+  text-align: center;
+}
+
+.flex-container-home-page > button:hover {
+  background-color: #f8a87a;
+}
+
+.behavior-code > p {
+  text-align: center;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.navbar { /*botão voltar e logo*/
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.navbar > img {
+  width: 260px;
+  height: 240px;
+  margin-left: 454px;
+}
+
+.back-button {
+  font-family: "Fredoka One", cursive;
+  font-size: 18px;
+  border: 3px solid #f35d06;
+  border-radius: 10px;
+  background-color: #c7c7c7f1;
+  text-align: center;
+  height: 42px;
+  
+ }
+
+.back-button:hover{
+  background-color: #f8a87a;
+}
+
+.instructions {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 0;
+  font-size: 15px;
+  font-family: "Special Elite", cursive;
+}
+
+.input {
+  text-align: center;  
+  font-size: 13px;
+  height: 60px;
+}
+
+#offsetencode {
+  width: 212px;
+}
+
+#offsetdecode {
+  width: 212px;
+}
+
+.flex-container { /*caixas de texto*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.encode-text-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.decode-text-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-text-encoded {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-text-decoded {
+  display: flex;
+  flex-direction: column;
+}
+
+#encoded-text {
+  background-color: rgb(201, 201, 201);
+}
+
+#decode-text {
+  background-color:  rgb(201, 201, 201);;
+}
+
+.insert-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.decoded-text-area > p {
+  font-family: "Fredoka One", cursive;
+  margin-top: 0px;
+  font-size: 11px;
+}
+
+label {
+  font-family: "Fredoka One", cursive;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(130, 111, 255, 0.842)), to(rgba(137, 43, 226, 0.836))) fixed;
+}

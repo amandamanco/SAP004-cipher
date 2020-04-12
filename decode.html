@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Decodificação Kudos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fonte-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fonte-->
+  </head>
+
+  <body>
+    
+    <section class="navbar">
+      <button type="button" class="back-button" onclick="window.location.href = '/index.html'">Voltar</button>
+      <img src="assets/Kudos-to-you.png" alt="Kudo para Você" />
+    </section>
+
+    <section class="instructions">
+      <!--Section com as instruções do Kudo-->
+      <h2>Instruções:</h2>
+      <p>
+        Para decodificar uma mensagem, basta escolher o "número de
+        codificação" e inserí-lo no campo abaixo. <br />
+        Após, insira o texo codificado do Kudo que você recebeu na caixa de
+        texto e veja sua parabenização! <br />
+      </p>
+    </section>
+
+    <div class="input">
+        <!--Section para inserir o offset-->
+      <label for="offset">Insira o número de codificação</label> <br/>
+      <input id="offsetDecode" name="offset" type="number" min = "0" placeholder="Número de Codificação" required>
+      
+    </div>
+
+    <section class="flex-container">
+      <div class="insert-text">
+        <!--Section para inserir o texto original do Kudo-->
+        <label for="user-text-decoded"
+          >Insira aqui a mensagem codificada do seu Kudo</label
+        >
+
+        <textarea
+          id="user-text-decoded"
+          rows="10"
+          cols="40"
+          maxlength="500"
+          placeholder="Mensagem Codifica"
+        ></textarea>
+        <br />
+      </div>
+
+      <div class="decode-text-area">
+        <!--Section com textarea para printar o Kudo codificado-->
+        <label for="decode-text">Sua mensagem já está decodificada!</label>
+        <textarea id="decode-text" rows="10" cols="40" readonly>
+Aqui esta seu texto decodificado!</textarea
+        >
+      </div>
+
+      
+    </section>
+
+    <script src="decode.js" type="module"></script>
+  </body>
+</html>
