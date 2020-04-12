@@ -40,7 +40,8 @@ Inclusive, é válido ressaltar que foi adicionado um botão de voltar tanto na 
 
 
 | ![FLUXOGRAMA](/src/assets/Fluxograma.png) |
-
+|:--:|
+| *FLUXOGRAMA* |
 
 
 Tendo a estrutura do HTML e do CSS prontas, foi separado um tempo para estudos para que a lógica do projeto pudesse ser desenvolvida. 
