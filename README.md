@@ -18,11 +18,19 @@ Tendo em vista o meio corporativo e as formalidades envolvidas nele, enviar e re
 # Desenvolvimento do produto
 
 Primeiramente, foi desenvolvido o wireframe do projeto. Como demonstrado abaixo, foi desenhado apenas o "esqueleto" das páginas. As cores, imagens e demais detalhes do projeto foram sendo decididos durante o desenvolvimento da página.
+
 ![WIREFRAME HOMEPAGE](/src/assets/HOMEPAGE.jpg)
+
 ![WIREFRAME DECODEPAGE](src/assets/DECODEPAGE.png)
+
 ![WIREFRAME ENCODEPAGE](src/assets/ENCODEPAGE.png)
+
 Após, foi realizado um fluxograma para determinar cada ação do usuário e quais eram suas necessidades principais, como o campo de preenchimento do "número de codificação" *(offset)* e a textarea onde a mensagem seria inserida.
 Inclusive, é válido ressaltar que foi adicionado um botão de voltar tanto na página de Encode como na página de Decode que não estava previsto no projeto inicial. Porém, no decorrer do desenvolvimento, verificou-se a necessidade do referido botão para melhorar a experiência do usuário. 
+
+
 ![FLUXOGRAMA](/src/assets/Fluxograma.png)
+
+
 Tendo a estrutura do HTML e do CSS prontas, foi separado um tempo para estudos para que a lógica do projeto pudesse ser desenvolvida. 
 
