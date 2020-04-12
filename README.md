@@ -19,16 +19,19 @@ Tendo em vista o meio corporativo e as formalidades envolvidas nele, enviar e re
 
 Primeiramente, foi desenvolvido o wireframe do projeto. Como demonstrado abaixo, foi desenhado apenas o "esqueleto" das páginas. As cores, imagens e demais detalhes do projeto foram sendo decididos durante o desenvolvimento da página.
 
-![WIREFRAME HOMEPAGE](/src/assets/HOMEPAGE.jpg)
-| *HOMEPAGE* |
+| ![WIREFRAME HOMEPAGE](/src/assets/HOMEPAGE.jpg) |
+|:--:|
+| *HOME PAGE* |
 
 
-![WIREFRAME DECODEPAGE](src/assets/DECODEPAGE.png)
-| *HOMEPAGE* |
+| ![WIREFRAME DECODEPAGE](src/assets/DECODEPAGE.png) |
+|:--:|
+| *DECODE PAGE* |
 
 
-![WIREFRAME ENCODEPAGE](src/assets/ENCODEPAGE.png)
-| *HOMEPAGE* |
+| ![WIREFRAME ENCODEPAGE](src/assets/ENCODEPAGE.png) |
+|:--:|
+| *ENCODE PAGE* |
 
 
 Após, foi realizado um fluxograma para determinar cada ação do usuário e quais eram suas necessidades principais, como o campo de preenchimento do "número de codificação" *(offset)* e a textarea onde a mensagem seria inserida.
