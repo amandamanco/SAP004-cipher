@@ -5,7 +5,7 @@ Você já ouviu falar em **Kudos**? Kudos, em inglês, significa "congratulaçã
 
 ## Definição do Produto
 
-A **Kudos To You** cifra e decifra mensagens de parabenização voltadas para o meio corporativo. Assim, as pessoas ficam mais a vontades em enviar elogios para seus colegas que talvez estas não tenham muito contato. Basta preencher o campo de " número de codificação" para que a mensagem seja codificada ou decodificada corretamente.
+A **Kudos To You** cifra e decifra mensagens de parabenização voltadas para o meio corporativo. Assim, colegas de trabalho podem trocar elogios mesmo com aqueles que não tenham muito contato. Basta preencher o campo de " número de codificação" para que a mensagem seja codificada ou decodificada corretamente.
 
 
 ## Objetivos do Produto
@@ -17,7 +17,7 @@ Tendo em vista o meio corporativo e as formalidades envolvidas nele, enviar e re
 
 # Desenvolvimento do produto
 
-Primeiramente, foi desenvolvido o wireframe do projeto. Como demonstrado abaixo, foi desenhado apenas o "esqueleto" das páginas. As cores, imagens e demais detalhes do projeto foram sendo decididos durante o desenvolvimento da página.
+Primeiramente, foi desenvolvido o wireframe do projeto. Como demonstrado abaixo, foi desenhado apenas o "esqueleto" das páginas. As cores, imagens e demais detalhes do projeto foram sendo decididos durante o desenvolvimento das páginas.
 
 | ![WIREFRAME HOMEPAGE](/src/assets/HOMEPAGE.jpg) |
 |:--:|
@@ -34,14 +34,13 @@ Primeiramente, foi desenvolvido o wireframe do projeto. Como demonstrado abaixo,
 | *ENCODE PAGE* |
 
 
-Após, foi realizado um fluxograma para determinar cada ação do usuário e quais eram suas necessidades principais, como o campo de preenchimento do "número de codificação" *(offset)* e a textarea onde a mensagem seria inserida.
+Após, foi realizado um fluxograma para determinar cada ação do usuário e quais eram suas necessidades principais, como o campo de preenchimento do "número de codificação" *(offset)* e a *textarea* onde a mensagem seria inserida.
 Inclusive, é válido ressaltar que foi adicionado um botão de voltar tanto na página de Encode como na página de Decode que não estava previsto no projeto inicial. Porém, no decorrer do desenvolvimento, verificou-se a necessidade do referido botão para melhorar a experiência do usuário. 
 
 
 
-![FLUXOGRAMA](/src/assets/Fluxograma.png)
+| ![FLUXOGRAMA](/src/assets/Fluxograma.png) |
 
 
 
 Tendo a estrutura do HTML e do CSS prontas, foi separado um tempo para estudos para que a lógica do projeto pudesse ser desenvolvida. 
-
