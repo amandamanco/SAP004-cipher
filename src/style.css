@@ -1,4 +1,4 @@
-.kudo-to-you > img { 
+.kudo-to-you > img {
   width: 500px;
   height: 495px;
 }
@@ -7,7 +7,11 @@
   text-align: center;
 }
 
-.flex-container-home-page { 
+.button {
+  text-decoration: none;
+}
+
+.flex-container-home-page {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -23,6 +27,7 @@
   background-color: #c7c7c7f1;
   width: 270px;
   text-align: center;
+  text-decoration: none;
 }
 
 .flex-container-home-page > button:hover {
@@ -57,10 +62,9 @@
   background-color: #c7c7c7f1;
   text-align: center;
   height: 42px;
-  
- }
+}
 
-.back-button:hover{
+.back-button:hover {
   background-color: #f8a87a;
 }
 
@@ -73,57 +77,25 @@
 }
 
 .input {
-  text-align: center;  
+  text-align: center;
   font-size: 13px;
   height: 60px;
 }
 
-#offsetencode {
-  width: 212px;
-}
-
-#offsetdecode {
-  width: 212px;
-}
-
-.flex-container { 
+.flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.encode-text-area {
+.text-area {
   display: flex;
   flex-direction: column;
 }
 
-.decode-text-area {
-  display: flex;
-  flex-direction: column;
-}
-
-.user-text-encoded {
-  display: flex;
-  flex-direction: column;
-}
-
-.user-text-decoded {
-  display: flex;
-  flex-direction: column;
-}
-
-#encoded-text {
+.result {
   background-color: rgb(201, 201, 201);
-}
-
-#decode-text {
-  background-color:  rgb(201, 201, 201);;
-}
-
-.insert-text {
-  display: flex;
-  flex-direction: column;
 }
 
 .decoded-text-area > p {
@@ -137,5 +109,12 @@ label {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(130, 111, 255, 0.842)), to(rgba(137, 43, 226, 0.836))) fixed;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(130, 111, 255, 0.842)),
+      to(rgba(137, 43, 226, 0.836))
+    )
+    fixed;
 }

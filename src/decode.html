@@ -16,11 +16,10 @@
 
   <body>
     <header class="navbar">
-      <button
-        class="back-button"
-        onclick="window.location.href = '/index.html'"
-      >
-        Voltar
+      <button class="back-button">
+        <a href="./index.html" class="button">
+          Voltar
+        </a>
       </button>
       <img src="assets/Kudos-to-you.png" alt="Kudo para Você" />
     </header>
@@ -49,8 +48,8 @@
       </div>
 
       <section class="flex-container">
-        <div class="insert-text">
-          <label for="user-text-decoded"
+        <div class="insert-text text-area">
+          <label for="user-text-decoded user-text"
             >Insira aqui a mensagem codificada do seu Kudo</label
           >
 
@@ -63,9 +62,15 @@
           ></textarea>
         </div>
 
-        <div class="decode-text-area">
+        <div class="decode-text-area text-area">
           <label for="decode-text">Sua mensagem já está decodificada!</label>
-          <textarea id="decode-text" rows="10" cols="40" readonly>
+          <textarea
+            class="result"
+            id="decode-text"
+            rows="10"
+            cols="40"
+            readonly
+          >
 Aqui esta seu texto decodificado!</textarea
           >
         </div>
