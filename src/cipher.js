@@ -16,6 +16,9 @@ const cipher = {
 
 
   decode: (offsetDecode, strDecode) => {
+    if (offsetDecode == "" || typeof strDecode !== "string") {
+      throw new TypeError('Insira o número do offset ou confira que seu texto não tenha caracteres especiais')
+    }
     let solved = "";
     for (let i = 0; i < strDecode.length; i++) {
       const asciiNum = strDecode[i].charCodeAt();
