@@ -12,7 +12,7 @@ A **Kudos To You** cifra e decifra mensagens de parabenização voltadas para o 
 
 Tendo em vista o meio corporativo e as formalidades envolvidas nele, enviar e receber Kudos é uma forma de se aproximar das pessoas e ainda incentiva-las ou parabenizá-las por seu trabalho. É importante ressaltar que a **Kudos To You** foi idealizada apenas para codificar e decodificar mensagens positivas e de congratulações. Não toleramos Kudos que tenham conteúdo ofensivo ou prejudique alguém de alguma forma. 
 
-| ![HOME PAGE](/src/assets/kudos.png) |
+| ![HOME PAGE](/src/assets/kudos.PNG) |
 |:--:|
 | *HOME PAGE* |
 
