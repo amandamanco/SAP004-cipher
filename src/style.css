@@ -1,25 +1,53 @@
-.kudo-to-you > img {
-  width: 500px;
-  height: 495px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-info {
+  display: flex;
+  justify-content: flex-end;
+  background-color:  rgb(102, 0, 197);
+  padding: 10px 36px;
+}
+
+.header-pages {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(102, 0, 197);
+  padding: 10px 36px;
+}
+
+.link {
+  color: white;
+  font-family: "Fredoka One";
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .kudo-to-you {
-  text-align: center;
+  width: 26%;
+  height: 26%;
+  margin: 2% 0 4% 0;
 }
 
-.button {
-  text-decoration: none;
-  color: black;
+.img-kudo-pages {
+  width: 16%;
+  height: 16%;
+  margin: 16px 0 20px 0;
+}
+
+.flex-container-center {
+  display: flex;
+  justify-content: center;
 }
 
 .flex-container-home-page {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-around;
-  padding: 0 215px;
 }
 
-.flex-container-home-page > button {
+.button {
   padding: 20px;
   font-family: "Fredoka One", cursive;
   font-size: 28px;
@@ -28,81 +56,78 @@
   background-color: #c7c7c7f1;
   width: 270px;
   text-align: center;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #f8a87a;
+}
+
+.link-button {
+  color: black;
+  font-family: "Fredoka One";
   text-decoration: none;
 }
 
-.flex-container-home-page > button:hover {
-  background-color: #f8a87a;
-}
-
-.behavior-code > p {
+.text {
   text-align: center;
   font-family: "Special Elite", cursive;
   font-size: 18px;
-  margin-top: 50px;
-}
-
-.navbar {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  text-align: center;
-}
-
-.navbar > img {
-  width: 260px;
-  height: 240px;
-  margin-left: 454px;
-}
-
-.back-button {
-  font-family: "Fredoka One", cursive;
-  font-size: 18px;
-  border: 3px solid #f35d06;
-  border-radius: 10px;
-  background-color: #c7c7c7f1;
-  text-align: center;
-  height: 42px;
-}
-
-.back-button:hover {
-  background-color: #f8a87a;
+  margin: 50px 0;
 }
 
 .instructions {
   text-align: center;
-  margin-bottom: 30px;
   padding-top: 0;
+  margin: 2% 0;
   font-size: 15px;
   font-family: "Special Elite", cursive;
 }
 
-.input {
+.note-about {
+  font-family: "Fredoka One";
+  color: black;
+  margin: 10px;
+  padding: 4px;
+}
+
+.flex-text-about {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 70%;
+  margin: 0 0 30px 0;
+  
+}
+
+.center-input {
   text-align: center;
   font-size: 13px;
   height: 60px;
 }
 
-.flex-container {
+.flex-container-space {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.text-area {
+.flex-text-area {
   display: flex;
   flex-direction: column;
+  margin: 0 0 4% 0;
+}
+
+.text-area {
+  border: 1px solid #3f3f3f;
+  border-radius: 12px;
+  padding: 4px;
+  margin: 4px 0;
 }
 
 .result {
   background-color: rgb(201, 201, 201);
-}
-
-.decoded-text-area > p {
-  font-family: "Fredoka One", cursive;
-  margin-top: 0px;
-  font-size: 11px;
 }
 
 label {
